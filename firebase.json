@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/your-birthday-color",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

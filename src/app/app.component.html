@@ -1,0 +1,16 @@
+<div class="app" [style.background-color]="backgroundColor">
+  <form [formGroup]="birthdayForm" class="app__inputs">
+    <mat-form-field>
+      <mat-label>Year</mat-label>
+      <input matInput type="number" formControlName="year">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Month</mat-label>
+      <input matInput type="number" formControlName="month">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Day</mat-label>
+      <input matInput type="number" formControlName="day">
+    </mat-form-field>
+  </form>
+</div>
